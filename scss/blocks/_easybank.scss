@@ -1,0 +1,155 @@
+.easybank-part{
+    padding-top:96px;
+    padding-bottom: 94px;
+    background-color: #F4F5F7;
+    margin-top: -84px;
+}
+
+.easybank__content{
+    width: 635px;
+}
+
+.easybank__title{
+    margin: 0;
+    padding: 0;
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 64px;
+    letter-spacing: -0.714286px;
+    color: #2D314D;
+    margin-bottom: 16px;
+}
+
+.easybank__text{
+    margin: 0;
+    padding: 0;
+    font-family: "Public Sans";
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.28125px;
+    color: #9597A5;
+    margin-bottom: 72px;
+}
+
+.easybank__list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.easybank__item-content{
+    width: 255px;
+}
+
+.easybank__item-title{
+    margin: 0;
+    padding: 0;
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.428571px;
+    color: #2D314D;
+    margin-bottom: 26px;
+
+
+    &::before{
+        content: '';
+        display: block;
+        background-image: url("../images/carad-oval.svg");
+        background-repeat: no-repeat;
+        width: 72px;
+        height: 72px;
+        margin-bottom: 42px;
+    }
+
+
+}
+
+
+.easybank__item-text{
+    margin: 0;
+    padding: 0;
+    font-family: "Public Sans";
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #9597A5;
+}
+.secound-easy::before{
+    content: '';
+    display: block;
+    background-image: url("../images/phone-dollor.png");
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 72px;
+    margin-bottom: 42px;
+}
+
+.third-easy::before{
+    content: '';
+    display: block;
+    background-image: url("../images/settings-people.png");
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 72px;
+    margin-bottom: 42px;
+}
+
+.four-easy::before{
+    content: '';
+    display: block;
+    background-image: url("../images/branch-img.png");
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 72px;
+    margin-bottom: 42px;
+}
+
+
+@media only screen and (max-width:1140px){
+
+    .easybank-part{
+        padding-top:64px;
+        padding-bottom: 64px;
+        background-color: #F4F5F7;
+    }
+    .easybank__content{
+        width: 100%;
+        text-align: center;
+    }
+
+    .easybank__item-title{
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .easybank__item-text{
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .easybank__list{
+        flex-direction: column;
+        align-items: center;
+    }
+    .easybank__item{
+        text-align: center;
+
+        & + & {
+            margin-top: 32px;
+        }
+    }
+    .easybank__item-content{
+        text-align: center;
+        width: 100%;
+    }
+    .easybank__item-title::before{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
